@@ -1,0 +1,312 @@
+/* Global */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.font {
+  /* font-family: "Sahitya,serif" !important; */
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0px !important;
+  padding: 0px 10px 0px 10px;
+  height: 75px !important;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color: floralwhite;
+  width: 100%;
+}
+
+.logo-image {
+  width: 100px;
+  height: 50px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 498px;
+}
+
+.home {
+  display: flex;
+  min-height: 650px;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url("./images/background-img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 50px;
+  .home-inner {
+    max-width: 680px;
+    margin: 0 auto;
+    flex-grow: 1;
+    display: flex;
+    .card {
+      width: 300px;
+      height:auto;
+      .card-image{
+        height: 200px;
+        object-fit: cover;
+        width: 100%;
+      }
+    }
+
+  }
+}
+
+/* Shoes List */
+.shoes-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .MuiPaper-root{
+    cursor: pointer;
+    .MuiCardContent-root{
+      margin-top: 4%;
+      width: 100%;
+      transform: translateX(10px);
+    }
+  }
+}
+.MuiPaper-root {
+  color: rgba(0, 0, 0, 0.87) !important;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+    .nike-logo-sizing {
+      width: 100%;
+      height: 60px;
+      > svg {
+        height: 50px;
+        width: 70px;
+      }
+  }
+}
+
+.shoes-list-card {
+  width: 350px;
+  min-height: 260px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+  transition: transform 0.5s ease !important;
+}
+.shoes-list-card :hover{
+  transform: scale(1.1);
+}
+
+.add-to-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Shoes List */
+
+/* Selected Shoe */
+.selected-shoe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .MuiPaper-root {
+    width: 740px;
+    .MuiCardContent-root {
+      background-color: whitesmoke;
+      border-left: 1px solid black;
+    }
+  }
+}
+
+.selected-shoe-card {
+  display: flex;
+  margin: 10px;
+}
+
+.card-action {
+  flex: 2;
+}
+
+.card-content {
+  flex: 1;
+}
+.card {
+  width: 300px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-content h2 {
+  margin: 0;
+}
+
+.card-content p {
+  margin-top: 8px;
+}
+
+
+.card {
+  flex: 1;
+  margin: 10px;
+}
+
+/* Shoes */
+
+.shoes {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Cart */
+
+.cart-container {
+  width: 90%;
+  flex-grow: 1;
+}
+
+.cart-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cart-history,
+.cart-summery {
+  margin: 20px;
+}
+
+.cart-history {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+}
+
+.cart-history > :nth-child(even) {
+  margin: 10px 0px 10px 0px;
+}
+
+.cart-history-flex {
+  display: flex;
+}
+
+.cart-history-flex > :nth-child(odd) {
+  flex: 1;
+}
+
+.cart-history-flex > :nth-child(even) {
+  flex: 2;
+}
+
+.cart-summery {
+  flex: 1;
+}
+
+.flexing {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.nav {
+  display: flex;
+  .nav-align {
+    padding-left: 6px;
+    height: 20px;
+  }
+}
+
+.nav > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 22px;
+  width: 100px;
+  border-bottom: 4px solid transparent;
+}
+
+.nav > a:hover {
+  border-bottom: 4px solid rgb(200, 194, 194);
+}
+
+.nav > .active {
+  border-bottom: 3px solid black;
+}
+
+.nav > a > h4 {
+  margin-left: 5px;
+}
+
+.drawer-list {
+  color: black;
+}
+
+.drawer {
+  display: none;
+}
+.available-color-wrapper {
+  display: flex;
+  .green-shoes-spacing {
+    padding-left: 15px;
+    display: inline-flex;
+  }
+}
+/* Responsive */
+
+@media (max-width: 650px) {
+  .drawer {
+    display: inline-block;
+  }
+  .nav {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .home {
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+  }
+  .selected-shoe-card {
+    flex-direction: column;
+  }
+}
+/* @import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-popups/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-inputs/styles/material.css"; */

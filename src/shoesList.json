@@ -1,0 +1,122 @@
+{
+  "men-shoes":{
+    "air-jordan-3-valor-blue": {
+      "name": "VALOUR BLUE",
+      "price":5200,
+      "itemsLeft":8,
+      "img":
+        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-665455a5-45de-40fb-945f-c1852b82400d/react-infinity-run-flyknit-mens-running-shoe-zX42Nc.jpg"
+    },
+    "airred-jordan-3-valor-blue": {
+      "name": "VALOUR BLUE_RED",
+      "price":2000,
+      "itemsLeft":9,
+      "sub": "true",
+      "img":
+        "http://localhost:3000/static/media/nike-red.56ed19c9d3be44060182.jpg"
+    },
+    "airgreen-jordan-3-valor-blue": {
+      "name": "VALOUR BLUE_RED",
+      "price":2000,
+      "itemsLeft":9,
+      "sub": "true",
+      "img":
+        "http://localhost:3000/static/media/nike-green.38606a65db2eb8b6cf65.jpg"
+    },
+    "jordan-mars-270-london": {
+      "name": "JORDAN MARS 270 LONDON",
+      "price":1000,
+      "itemsLeft":7,
+      "img":
+        "https://secure-images.nike.com/is/image/DotCom/CV3042_001_A_PREM?$SNKRS_COVER_WD$&align=0,1"
+    },
+    "air-jordan-1-zoom-racer-blue": {
+      "name": "RACER BLUE",
+      "price":1200,
+      "itemsLeft":5,
+      "img":
+        "https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1"
+    },
+    "cosmic-unity-basketball-shoe": {
+      "name": "RACER BLUE",
+      "price":7200,
+      "itemsLeft":6,
+      "img":
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/214f6074-9556-4d05-822c-17d2eb946875/cosmic-unity-basketball-shoe-nDHKr4.png"
+    },
+    "nike-react-infinity-run-flyknit":{
+      "name":"VANS",
+      "price":900,
+      "itemsLeft":7,
+      "img":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-665455a5-45de-40fb-945f-c1852b82400d/react-infinity-run-flyknit-mens-running-shoe-zX42Nc.jpg"
+    },
+    "nike-react-miler":{
+      "name":"NIKE",
+      "price":3000,
+      "itemsLeft":3,
+      "img":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-5cc7de3b-2afc-49c2-a1e4-0508997d09e6/react-miler-mens-running-shoe-DgF6nr.jpg"
+    },   
+    "nikenew-react-miler":{
+      "name":"NIKE",
+      "price":3000,
+      "sub": "true",
+      "itemsLeft":3,
+      
+      "img":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-5cc7de3b-2afc-49c2-a1e4-0508997d09e6/react-miler-mens-running-shoe-DgF6nr.jpg"
+    },  
+    "michael-feburary-sk8-hi":{
+      "name":"REEBOK",
+      "price":5600,
+      "itemsLeft":6,
+      "img":"https://images.vans.com/is/image/Vans/MV122M-HERO?$583x583$"
+    }
+  },
+  "women-shoes":{
+    "air-jordan-3-valor-blue": {
+      "name": "VALOUR BLUE",
+      "price":7200,
+      "itemsLeft":8,
+      "img":
+        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-665455a5-45de-40fb-945f-c1852b82400d/react-infinity-run-flyknit-mens-running-shoe-zX42Nc.jpg"
+    },
+    "jordan-mars-270-london": {
+      "name": "JORDAN MARS 270 LONDON",
+      "price":1000,
+      "itemsLeft":7,
+      "img":
+        "https://secure-images.nike.com/is/image/DotCom/CV3042_001_A_PREM?$SNKRS_COVER_WD$&align=0,1"
+    },
+    "air-jordan-1-zoom-racer-blue": {
+      "name": "RACER BLUE",
+      "price":1200,
+      "itemsLeft":5,
+      "img":
+        "https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1"
+    },
+    "cosmic-unity-basketball-shoe": {
+      "name": "RACER BLUE",
+      "price":7200,
+      "itemsLeft":6,
+      "img":
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/214f6074-9556-4d05-822c-17d2eb946875/cosmic-unity-basketball-shoe-nDHKr4.png"
+    },
+    "nike-react-infinity-run-flyknit":{
+      "name":"VANS",
+      "price":9000,
+      "itemsLeft":7,
+      "img":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-665455a5-45de-40fb-945f-c1852b82400d/react-infinity-run-flyknit-mens-running-shoe-zX42Nc.jpg"
+    },
+    "nike-react-miler":{
+      "name":"NIKE",
+      "price":3000,
+      "itemsLeft":3,
+      "img":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-5cc7de3b-2afc-49c2-a1e4-0508997d09e6/react-miler-mens-running-shoe-DgF6nr.jpg"
+    },   
+    "michael-feburary-sk8-hi":{
+      "name":"REEBOK",
+      "price":5600,
+      "itemsLeft":6,
+      "img":"https://images.vans.com/is/image/Vans/MV122M-HERO?$583x583$"
+    }
+  }
+}
