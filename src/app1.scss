@@ -279,7 +279,6 @@ a {
 .available-color-wrapper {
   display: flex;
   .green-shoes-spacing {
-    padding-left: 15px;
     display: inline-flex;
   }
 }
@@ -304,6 +303,10 @@ a {
   .selected-shoe-card {
     flex-direction: column;
   }
+}
+.test1{
+  border: 1px solid black;
+  margin-left: 10px;
 }
 /* @import "../node_modules/@syncfusion/ej2-base/styles/material.css";
 @import "../node_modules/@syncfusion/ej2-inputs/styles/material.css";
